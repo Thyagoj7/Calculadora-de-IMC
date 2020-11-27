@@ -1,0 +1,30 @@
+main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.conatainer{
+    display: flex;
+    flex-direction: column;
+    background: rgb(255,198,0);
+    width: 400px;
+    height: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    font: bold 2.5rem serif;
+    border-bottom: solid 5px black;
+    margin-bottom: 20px;
+}
